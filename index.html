@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plan your trip</title>
+    <link rel="stylesheet" href="/build/css/style.css">
+</head>
+
+<body class="min-h-scree">
+    <header class="flex items-center px-16 py-8 justify-between bg-center text-travelBlue sticky top-0 z-10 bg-white">
+        <a href="index.html" class="flex flex-grow-0 flex-shrink-0 flex-basis-auto">
+            <h1 class="text-2xl font-bold hover:transition-colors duration-200 ease-linear hover:text-travelOrange ">
+                Travel Site
+            </h1>
+        </a>
+        <div>
+            <button id="mobile-open-button" class="text-3xl md:hidden focus:outline-none">
+                &#9776;
+            </button>
+            <nav class="hidden md:flex space-x-8 text-lg" aria-label="main">
+                <a href="index.html"
+                    class="hover:transition-colors duration-200 ease-linear hover:text-travelOrange">Home</a>
+                <a href="../pages//hawaii.html"
+                    class="hover:transition-colors duration-200 ease-linear hover:text-travelOrange">Hawaii</a>
+                <a href="../pages/iceland.html"
+                    class="hover:transition-colors duration-200 ease-linear hover:text-travelOrange">Iceland</a>
+                <a href="../pages/greece.html"
+                    class="hover:transition-colors duration-200 ease-linear hover:text-travelOrange">Greece</a>
+            </nav>
+        </div>
+
+    </header>
+    <main>
+        <section class="flex justify-between px-16 py-20 bg-[#FEFAF5]">
+            <article class="flex flex-col justify-center items-center md:items-start">
+                <h1 class="text-3xl text-center md:text-left md:text-4xl font-bold text-travelBlue">
+                    Travelling Comes With Endless Discoveries</h2>
+                    <p class="text-xl text-center md:text-left my-[4rem] text-travelBlue">
+                        Don’t let your dreams be just dreams. Experience the world by booking a
+                        vacation with us now.
+                    </p>
+                    <a href="../pages/plan-your-trip.html">
+                        <button
+                            class=" md:mx-0 bg-travelOrange hover:bg-travelBlue text-white p-3 w-48 rounded-full">Get
+                            Started</button></a>
+            </article>
+            <img class="hidden sm:block w-96 h-80 object-contain mx-8" src="./assets/images/hero.png" alt="Hero image">
+        </section>
+
+        <section class="px-16 py-20">
+            <h2 class="mb-8 text-2xl font-bold text-travelBlue text-center lg:text-left">Recommendations</h2>
+            <div class="flex flex-col lg:flex-row justify-center items-center">
+
+                <a href="/pages/hawaii.html"
+                    class="[text-shadow:_0_1px_0_rgb(0_0_0_/_50%)]  flex flex-grow-0 flex-shrink-0 flex-basis-auto hover:transition-all duration-500 ease-linear text-xl opacity-80 hover:opacity-100 text-white w-72 h-96 p-6 my-7 md:mx-7  bg-[url('/assets/images/hawaii.jpg')] bg-cover rounded-md">
+                    Hawaii
+                </a>
+
+
+                <a href="/pages/iceland.html"
+                    class="[text-shadow:_0_1px_0_rgb(0_0_0_/_50%)]  flex flex-grow-0 flex-shrink-0 flex-basis-auto hover:transition-all duration-500 ease-linear text-xl opacity-80 hover:opacity-100 text-white w-72 h-96  p-6 my-7 md:mx-7   bg-[url('/assets/images/iceland.jpg')] bg-cover rounded-md">
+                    Iceland
+                </a>
+                <a href="/pages/greece.html"
+                    class="[text-shadow:_0_1px_0_rgb(0_0_0_/_50%)]  flex flex-grow-0 flex-shrink-0 flex-basis-auto hover:transition-all duration-500 ease-linear text-xl opacity-80 hover:opacity-100 text-white w-72 h-96  p-6 my-7 md:mx-7  bg-[url('/assets/images/greece.jpg')] bg-cover rounded-md">
+                    Greece
+                </a>
+
+
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
