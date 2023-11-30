@@ -820,6 +820,42 @@ body {
   background-image: none;
 }
 
+.bg-\[url\(\'assets\/images\/greece\.jpg\'\)\] {
+  background-image: url('assets/images/greece.jpg');
+}
+
+.bg-\[url\(\'assets\/images\/hawaii\.jpg\'\)\] {
+  background-image: url('assets/images/hawaii.jpg');
+}
+
+.bg-\[url\(\'assets\/images\/iceland\.jpg\'\)\] {
+  background-image: url('assets/images/iceland.jpg');
+}
+
+.bg-\[url\(\'\.\.\/assets\/images\/greece\.jpg\'\)\] {
+  background-image: url('../assets/images/greece.jpg');
+}
+
+.bg-\[url\(\'\.\.\/assets\/images\/iceland\.jpg\'\)\] {
+  background-image: url('../assets/images/iceland.jpg');
+}
+
+.bg-\[url\(\'\.\.\/assets\/images\/hawaii\.jpg\'\)\] {
+  background-image: url('../assets/images/hawaii.jpg');
+}
+
+.bg-\[url\(\'\.\.\/\.\.\/assets\/images\/greece\.jpg\'\)\] {
+  background-image: url('../../assets/images/greece.jpg');
+}
+
+.bg-\[url\(\'\.\.\/\.\.\/assets\/images\/iceland\.jpg\'\)\] {
+  background-image: url('../../assets/images/iceland.jpg');
+}
+
+.bg-\[url\(\'\.\.\/\.\.\/assets\/images\/hawaii\.jpg\'\)\] {
+  background-image: url('../../assets/images/hawaii.jpg');
+}
+
 .bg-cover {
   background-size: cover;
 }
