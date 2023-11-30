@@ -856,6 +856,10 @@ body {
   background-image: url('../../assets/images/hawaii.jpg');
 }
 
+.bg-\[url\(\'\.\.\/\.\.\/assets\/images\/plan-your-trip\.jpg\'\)\] {
+  background-image: url('../../assets/images/plan-your-trip.jpg');
+}
+
 .bg-cover {
   background-size: cover;
 }
