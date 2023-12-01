@@ -661,6 +661,30 @@ body {
   height: 100%;
 }
 
+.h-\[50\%\] {
+  height: 50%;
+}
+
+.h-1\/2 {
+  height: 50%;
+}
+
+.h-8 {
+  height: 2rem;
+}
+
+.h-3\/5 {
+  height: 60%;
+}
+
+.h-\[50vh\] {
+  height: 50vh;
+}
+
+.h-\[40vh\] {
+  height: 40vh;
+}
+
 .w-48 {
   width: 12rem;
 }
@@ -955,6 +979,10 @@ body {
 
 .pr-9 {
   padding-right: 2.25rem;
+}
+
+.pr-5 {
+  padding-right: 1.25rem;
 }
 
 .text-left {

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hawaii</title>
+    <link rel="stylesheet" href="../build/css/style.css">
+</head>
+
+<body>
+    <header class="flex items-center px-16 py-8 justify-between bg-center text-travelBlue sticky top-0 z-10 bg-white">
+        <a href="../index.html" class="flex flex-grow-0 flex-shrink-0 flex-basis-auto">
+            <h1 class="text-2xl font-bold hover:transition-colors duration-200 ease-linear hover:text-travelOrange ">
+                Travel Site
+            </h1>
+        </a>
+        <div>
+            <button id="mobile-open-button" class="text-3xl md:hidden focus:outline-none">
+                &#9776;
+            </button>
+            <nav class="hidden md:flex space-x-8 text-lg" aria-label="main">
+                <a href="../index.html"
+                    class="hover:transition-colors duration-200 ease-linear hover:text-travelOrange">Home</a>
+                <a href="../pages/hawaii.html"
+                    class="hover:transition-colors duration-200 ease-linear hover:text-travelOrange">Hawaii</a>
+                <a href="../pages/iceland.html"
+                    class="hover:transition-colors duration-200 ease-linear hover:text-travelOrange">Iceland</a>
+                <a href="../pages/greece.html"
+                    class="hover:transition-colors duration-200 ease-linear hover:text-travelOrange">Greece</a>
+            </nav>
+        </div>
+
+    </header>
+
+    <main
+        class="bg-[url('../../assets/images/plan-your-trip.jpg')] bg-cover bg-center px-16 py-32 flex flex-col items-center">
+
+        <div class=" bg-white w-[100%] lg:w-[50%] px-10 py-16 rounded-lg flex items-center h-[40vh]">
+            <h2 class="mb-8 text-2xl font-bold text-travelOrange dark:text-white text-center ">Thank you! We'll be in
+                touch with you soon. Pack your luggage! 🧳✈️</h2>
+        </div>
+
+    </main>
+
+    <footer class="bg-[#FEFAF5] flex flex-col lg:flex-row md:items-start  p-16 justify-evenly gap-5">
+        <div>
+            <h2 class="mb-3 text-2xl font-bold text-travelBlue text-left">Contact</h2>
+            <p class="text-base text-travelOrange">Email</p>
+            <a class="text-xl text-left my-[4rem] text-travelBlue" href="mailto:info@travelsite.com" target="_blank"
+                rel="noopener noreferrer">info@travelsite.com</a>
+        </div>
+        <div>
+            <h2 class="mb-3 text-2xl font-bold text-travelBlue  text-left ">Hours</h2>
+            <div class="flex flex-col lg:flex-row gap-8">
+                <div>
+                    <p class="text-base text-travelOrange">Monday - Friday</p>
+                    <p class="text-xl text-left text-travelBlue">9:00
+                        AM - 5:00
+                        PM</p>
+                </div>
+                <div>
+                    <p class="text-base text-travelOrange">Saturday</p>
+                    <p class="text-xl text-left text-travelBlue">10:00 AM - 4:00 PM</p>
+                </div>
+                <div>
+                    <p class="text-base text-travelOrange">Sunday</p>
+                    <p class="text-xl text-left text-travelBlue">Closed</p>
+                </div>
+            </div>
+        </div>
+        <div>
+            <h2 class="mb-8 text-2xl font-bold text-travelBlue  text-left">Social</h2>
+            <div class="flex gap-10">
+                <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
+                    <img class="w-7 h-7 object-contain" src="../assets/icons/icon-instagram.png" alt="instagram" />
+                </a>
+                <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">
+                    <img class="w-7 h-7 object-contain" src="../assets/icons/icon-facebook.png" alt="facebook" />
+                </a>
+                <a href="https://www.twitter.com/" target="_blank" rel="noopener noreferrer">
+                    <img class="w-7 h-7 object-contain" src="../assets/icons/icon-twitter.png" alt="twitter" />
+                </a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
